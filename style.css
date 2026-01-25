@@ -1,0 +1,43 @@
+/* Styles for Xiaolan Ji's Profile Card */
+
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 28px;
+    color: slategray;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
+}
+li {
+    font-size: 18px;
+    line-height: 1.6;
+}
