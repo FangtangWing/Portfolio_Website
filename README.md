@@ -1,2 +1,2 @@
-# my-website
-my first website
+# Portfolio Website
+Portfolio Website for Xiaolan Ji

@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #472b01;
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
 /* Header */
 .header {
-    background: #12257a;
+    background: #395abc;
     color: #ffffff;
     padding: 50px 20px;
     text-align: center;
@@ -39,38 +39,43 @@ body {
 }
 
 
-/* Card */
-.card {
-    background-color: antiquewhite;
-    border-radius: 8px;
-    padding: 40px 30px;
+/* Intro */
+.intro {
+    background-image: linear-gradient(rgba(147, 235, 191, 0.3), rgb(1, 44, 23)), url('bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 30px;
+    min-height: 600px;
     margin: 20px auto;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card h1 {
-    font-size: 48px;
-    color: darkblue;
-}
-
-.card p {
-    font-size: 16px;
+.intro p {
+    font-size: 20px;
     line-height: 1.8;
-    background-color: antiquewhite;
     color: #333;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolioweb {
+    margin-top: 30px;
 }
 
 
 /* Skills Section */
 .skills {
     padding: 60px 20px;
-    background-color: white;
-    margin-top: 20px;
+    background-color: #395abc;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .skills h2 {
     font-size: 36px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 40px;
 }
 
@@ -126,7 +131,7 @@ body {
 
 .skill-item p {
     font-size: 11px;
-    color: #5a6b7f;
+    color: #0077ff;
     display: block;
     text-align: center;
 }
